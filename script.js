@@ -1,9 +1,10 @@
-const btn = document.getElementById('btn');
-btn.addEventListener('click', () => {
-    let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    getOdds(nums);
-});
-
+window.onload = () => {
+    const btn = document.getElementById('btn');
+    btn.addEventListener('click', () => {
+        let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        getOdds(nums);
+    });
+}
 
 /**
  * filtre e imprima en consola, en un nuevo arreglo, aquellos números dentro del parámetro nums que sean impares.
